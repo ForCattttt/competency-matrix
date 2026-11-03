@@ -1,0 +1,26 @@
+单选题 / Pilihan ganda
+1. 在虚构的示例笔记工具中，蓝色按钮标注为“保存”。要保存笔记，应选择哪个按钮？
+ID: Dalam aplikasi catatan rekaan, tombol biru berlabel “Simpan”. Tombol mana yang dipilih untuk menyimpan catatan?
+A. 中文：蓝色的“保存”按钮
+ID: Tombol biru “Simpan”
+B. 中文：灰色的“取消”按钮
+ID: Tombol abu-abu “Batal”
+C. 中文：红色的“删除”按钮
+ID: Tombol merah “Hapus”
+答案：A
+
+多选题 / Pilihan ganda kompleks
+2. 在虚构的示例笔记工具中，标题和正文都是必填项。哪些字段必须填写？
+ID: Dalam aplikasi catatan rekaan, judul dan isi wajib diisi. Kolom mana saja yang wajib diisi?
+A. 中文：标题
+ID: Judul
+B. 中文：正文
+ID: Isi
+C. 中文：可选的背景颜色
+ID: Warna latar opsional
+答案：A,B
+
+判断题 / Benar atau salah
+3. 在虚构的示例笔记工具中，选择“取消”会放弃尚未保存的修改。因此，未保存的内容可能丢失。
+ID: Dalam aplikasi catatan rekaan, memilih “Batal” akan membuang perubahan yang belum disimpan. Karena itu, perubahan tersebut dapat hilang.
+答案：正确 / Benar

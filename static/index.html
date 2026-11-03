@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#E87F22">
+<title>岗位能力矩阵</title>
+<link rel="icon" href="/static/assets/matrix-symbol.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="/static/motion.css">
+<script defer src="/static/app.js"></script>
+<script defer src="/static/motion.js"></script>
+<script defer src="/static/content-motion.js"></script>
+</head>
+<body>
+<div id="app"><div class="loading"><span class="spinner"></span> 正在加载岗位能力矩阵…</div></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="editor"><form id="editor-form"><div id="editor-body"></div><div class="dialog-actions"><button type="button" class="btn secondary" data-action="close-dialog">取消</button><button type="submit" class="btn primary" id="editor-save">保存</button></div></form></dialog>
+</body>
+</html>

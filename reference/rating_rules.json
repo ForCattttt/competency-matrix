@@ -1,0 +1,97 @@
+{
+  "version": "public-demo-v1",
+  "description": "Generic demonstration settings. Review and configure the rubric before using real assessments.",
+  "question_count": 50,
+  "theory_pass_percent": 60,
+  "final_percent_decimals": 2,
+  "practical_scale": {
+    "min": 1,
+    "max": 5,
+    "percent_multiplier": 20
+  },
+  "dimensions": [
+    {
+      "key": "knowledge",
+      "label_zh": "基础知识",
+      "label_id": "Pengetahuan dasar"
+    },
+    {
+      "key": "operation",
+      "label_zh": "操作步骤",
+      "label_id": "Langkah kerja"
+    },
+    {
+      "key": "safety",
+      "label_zh": "安全规范",
+      "label_id": "Aturan keselamatan"
+    },
+    {
+      "key": "quality",
+      "label_zh": "质量要求",
+      "label_id": "Persyaratan kualitas"
+    },
+    {
+      "key": "troubleshooting",
+      "label_zh": "问题处理",
+      "label_id": "Penanganan masalah"
+    }
+  ],
+  "categories": [
+    {
+      "key": "leader",
+      "label_zh": "类别 A",
+      "label_id": "Kategori A",
+      "theory_weight": 0.5,
+      "practical_weight": 0.5
+    },
+    {
+      "key": "operator",
+      "label_zh": "类别 B",
+      "label_id": "Kategori B",
+      "theory_weight": 0.5,
+      "practical_weight": 0.5
+    }
+  ],
+  "levels": [
+    {
+      "level": 0,
+      "min_percent": 0,
+      "max_percent": 60,
+      "label": "尚未掌握",
+      "label_zh": "尚未掌握",
+      "label_id": "Belum menguasai"
+    },
+    {
+      "level": 1,
+      "min_percent": 60,
+      "max_percent": 70,
+      "label": "需全程指导",
+      "label_zh": "需全程指导",
+      "label_id": "Perlu bimbingan penuh"
+    },
+    {
+      "level": 2,
+      "min_percent": 70,
+      "max_percent": 80,
+      "label": "需部分指导",
+      "label_zh": "需部分指导",
+      "label_id": "Perlu bimbingan sebagian"
+    },
+    {
+      "level": 3,
+      "min_percent": 80,
+      "max_percent": 90,
+      "label": "可独立完成",
+      "label_zh": "可独立完成",
+      "label_id": "Mampu bekerja mandiri"
+    },
+    {
+      "level": 4,
+      "min_percent": 90,
+      "max_percent": 100,
+      "label": "可指导他人",
+      "label_zh": "可指导他人",
+      "label_id": "Mampu membimbing orang lain"
+    }
+  ]
+}
